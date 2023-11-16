@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body class="h-screen w-screen">
+    <div class="background h-screen w-screen bg-cover relative">
+      <section class="todo">
+        <div class="flex flex-col justify-center items-center my-4 ">
+          <label for="todo-input">To Do list</label>
+          <div>
+            <input
+              type="text"
+              name="todo-input"
+              id="todo-input"
+              class="bg-transparent focus-visible:n backdrop:blur-md border rounded-md w-80 backdrop:"
+            />
+            <button class="add">Add</button>
+          </div>
+        </div>
+        <div class="sectiontodo">
+          <div id="div1" class="todo-item flex flex-col h100 overflow-y-auto w-80 px-2 items-stretch text-center">
+            <h2 draggable="false">todo</h2>
+          </div>
+          <div id="div2" class="todo-inprogress flex flex-col w-80 px-2 items-stretch h100 overflow-y-auto text-center">
+            <h2 draggable="false">inprogress</h2>
+           
+          </div>
+          <div id="div3" class="todo-done flex flex-col w-80 px-2 items-stretch  h100 overflow-y-auto text-center">
+            <h2 draggable="false">done</h2>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

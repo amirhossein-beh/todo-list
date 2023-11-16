@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.glass{
+     background: rgba(255, 255, 255, 0.25); border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(4px);
+}
+.sectiontodo{
+     display: grid;
+     grid-template-columns: repeat(3 , 1fr);
+     grid-template-rows: repeat(1 , 1fr);
+     justify-items: center;
+}
+.h100{
+     height: 550px;
+}
