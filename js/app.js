@@ -1,6 +1,6 @@
 const todoinput = document.getElementById('todo-input')
 const todobtn = document.querySelector('.add')
-/************************************************* */
+/**************************************************/
 const todo_item = document.querySelector('.todo-item')
 const todo_inprogress = document.querySelector('.todo-inprogress')
 const todo_done = document.querySelector('.todo-done')
